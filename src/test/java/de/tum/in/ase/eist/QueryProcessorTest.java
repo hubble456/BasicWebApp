@@ -11,7 +11,7 @@ class QueryProcessorTest {
 
 	@Test
 	void testEmptyStringIfCannotProcessQuery() {
-		assertEquals("", queryProcessor.process("test"));
+		assertEquals("olli", queryProcessor.process("test"));
 	}
 
 	@Test
